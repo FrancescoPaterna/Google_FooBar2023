@@ -1,5 +1,6 @@
 from math import floor
 
+#based on Concrete Matematics by Graham Knuth Patashnik
 def gauss(n):
     return n * (n + 1) / 2
 
