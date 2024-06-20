@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import itertools
 
 #bellmanford algorithm
@@ -118,10 +112,3 @@ def solution(times, time_limit):
     
     #no bunnies :(
     return []
-
-
-# In[ ]:
-
-
-
-
