@@ -7,12 +7,14 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
+#coefficient Factor
 def CF(c, n):
     cc= factorial(n)
     for a, b in Counter(c).items():
         cc//=(a**b)*factorial(b)
     return cc
 
+#iterative algotihm to generate all partitions of the positive integer n
 def pwc(n):
     p = n*[0]
     p[0] = n  
