@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from collections import Counter
 from math import factorial
 
@@ -56,10 +50,4 @@ def solution(w, h, s):
             m=cpw[1]*cph[1]
             sol+=m*(s**sum([sum([gcd(i, j) for i in cpw[0]]) for j in cph[0]]))
     return str(sol//(factorial(w)*factorial(h)))
-
-
-# In[ ]:
-
-
-
 
